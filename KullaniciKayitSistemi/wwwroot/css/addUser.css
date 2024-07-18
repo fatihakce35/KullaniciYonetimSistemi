@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    line-height: 30px;
+}
+
+.form-step {
+    display: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+    .form-step.active {
+        display: block;
+    }
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    min-width: 150px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.success-message {
+    display: none; 
+    text-align: center;
+    color: green;
+    font-size: 24px;
+    margin-top: 20px; 
+    
+}
+.recaptcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
